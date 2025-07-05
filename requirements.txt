@@ -1,0 +1,10 @@
+kivy
+plyer
+requests
+msal
+# For mobile builds:
+kivy-ios; platform_system == "Darwin"
+# For Android builds:
+buildozer; platform_system != "Darwin"
+# For iOS hot-reload (Inject):
+git+https://github.com/krzysztofzablocki/Inject.git; platform_system == "Darwin"
